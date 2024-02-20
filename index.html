@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Mon Portfolio</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#" class="tab-link active" data-tab="web">Web</a></li>
+            <li><a href="#" class="tab-link" data-tab="Carte_fixe">Carte fixe</a></li>
+            <li><a href="#" class="tab-link" data-tab="design">Design</a></li>
+        </ul>
+    </nav>
+    <section id="web" class="tab-content active">
+        <h2>Projets Web</h2>
+        <div class="project">
+            <iframe src="DATA/WEB/java_mardi/java_mardi/dist/index.html" width="100%" height="400" frameborder="0"></iframe>
+            <p>Description du projet 2</p>
+        </div>
+        <div class="project">
+            <iframe src="DATA/WEB/d-chetterie-maplibre-gl-js-16-02/d-chetterie-maplibre-gl-js-16-02/dist/index.html" width="100%" height="400" frameborder="0"></iframe>
+            <p>Description du projet 2</p>
+        </div>
+        <!-- Ajoutez autant de projets que nécessaire -->
+    </section>
+    
+    <section id="Carte_fixe" class="tab-content">
+        <h2>Projets Carte Fixe</h2>
+        <div class="project">
+            <img src="DATA/CARTES/bivariee.jpg" alt="Description de l'image 3">
+            <p>Description du projet 3</p>
+        </div>
+        <div class="project">
+            <img src="DATA/CARTES/GTFS.jpg" alt="Description de l'image 4">
+            <p>Description du projet 4</p>
+        </div>
+        <div class="project">
+            <img src="" alt="Description de l'image 3">
+            <p>Description du projet 3</p>
+        </div>
+        <!-- Ajoutez autant de projets que nécessaire -->
+    </section>
+    <section id="design" class="tab-content">
+        <h2>Projets Design</h2>
+        <div class="project">
+            <a href="DATA/CARTES/RolandGarros.jpg" target="_blank">Document PDF</a>
+            <p>Description du projet 5</p>
+        </div>
+        <div class="project">
+            <img src="DATA/CARTES/poster.jpg" alt="Description de l'image 6">
+            <p>Anamorphose réalisée sur le logociel Rstudio.</p>
+        </div>
+        <div class="project">
+            <img src="DATA/CARTES/RolandGarros.jpg" alt="Description de l'image 6">
+            <p> Datavisualisation réalisée en collaboration avec antoine Soumet sur le thème 
+                de RolandGarros </p>
+        </div>
+        <!-- Ajoutez autant de projets que nécessaire -->
+    </section>
+    <section id="documents" class="tab-content">
+        <h2>Documents</h2>
+        <div class="document">
+            <a href="" target="_blank">Document 1</a>
+        </div>
+        <div class="document">
+            <a href="u" target="_blank">Document 2</a>
+        </div>
+        <!-- Ajoutez autant de liens vers des documents PDF que nécessaire -->
+    </section>
+    
+    <script src="main.js"></script>
+</body>
+</html>
+
